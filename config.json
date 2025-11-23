@@ -1,0 +1,22 @@
+{
+  "app_id": "",
+  "api_key": "",
+  "_comment_preserve": "Tags to keep (not reset). Empty = FULL RESET of all tags",
+  "preserve_tags": ["user_mode"],
+
+  "_comment_sync": "Sync user_mode from local CSV",
+  "sync_user_mode": true,
+  "local_csv_path": "",
+  "local_csv_user_id_column": "user_id",
+  "local_csv_user_type_column": "user_type",
+  "default_user_mode": "free",
+  "no_external_id_user_mode": "unknown",
+
+  "_comment_perf": "Performance settings",
+  "max_requests_per_second": 500,
+  "max_workers": 50,
+  "enable_resume": false,
+
+  "_comment_skip": "Optional: skip export, use existing CSV URL",
+  "csv_url": null
+}
