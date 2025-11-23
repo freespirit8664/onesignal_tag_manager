@@ -1,0 +1,10 @@
+{
+  "app_id": "",
+  "alias_label": "onesignal_id",
+  "api_key": "",
+
+  "max_requests_per_second": 500,
+  "max_workers": 50,
+  "enable_resume": false,
+  "csv_url": null
+}
